@@ -539,6 +539,11 @@ div > p{
     text-decoration: none;
 }
 
+main {
+    width:min(120ch,100%-7rem);
+    margin-inline:auto; 
+}
+
 @media only screen and (max-width : 800px){
     .ul1 >li{
         width: 100%;
@@ -547,7 +552,7 @@ div > p{
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        fl
+        
     }
     li {
         width: 100%;
